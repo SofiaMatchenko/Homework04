@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*common properties*/
+.card{
+    width: 378px;
+    height: 526px;
+    border: solid #666 2px;
+    margin: auto;
+}
+p{
+    font-family: "Tahoma", sans-serif;
+    text-align: center;
+}
+/*title properties*/
+.title{
+    font-size: 22px;
+    color: #333;
+    line-height: 6px;
+    margin: 20px;
+}
+/*imagine properties*/
+img {
+    display: block;
+    width: 250px;
+    height: 280px;
+    margin: 35px auto 8px;
+}
+/*button properties*/
+.installment {
+    background-color: #99cc33;
+    box-shadow: -3px 3px #999;
+    width: 190px;
+    height: 31px;
+    margin: 8px 0;
+}
+.installment-inside{
+    color: #fff;
+    line-height: 31px;
+    font-size: 22px;
+}
+.buy{
+    margin: 20px auto;
+    width: 228px;
+    height: 46px;
+    background: #f00;
+    border-bottom: solid 4px #900;
+   }
+.buy-inside{
+    color: #fff;
+    line-height: 44px;
+    font-size: 28px;
+    text-shadow: -1px 1px #000;
+}
+/*price properties*/
+.price{
+    display: block;
+    color: #000;
+    font-size: 31px;
+    line-height: 10px;
+    margin: 25px;
+}
+
+
+
+

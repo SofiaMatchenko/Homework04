@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*common properties*/
+div{
+    width: 200px;
+    height: 200px;
+}
+.all-box{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+ .all-box div, img{
+    position: absolute;
+}
+/*red square properties*/
+.red-one, .red-two, .red-three, .red-four, .red-five{
+    background: #900;
+}
+.red-two{
+    top: 0;
+    right: 0;
+}
+.red-three{
+    left: 200px;
+    top: 200px;
+}
+.red-four {
+    left: 0;
+    bottom: 0;
+}
+.red-five{
+    right: 0;
+    bottom: 0;
+}
+/*chessmen properties*/
+.bishop{
+    top: 20px;
+    left: 260px;
+}
+.rook{
+    bottom: 20px;
+    left: 248px;
+}
+.knight{
+    top: 222px;
+    left: 45px;
+}
